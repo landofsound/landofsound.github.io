@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorites - Soundboard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>⭐ Your Favorite Sounds</h1>
+        <nav>
+            <a href="index.html">🎵 Back to All Sounds</a>
+        </nav>
+        <button id="stop-sound-btn">⏹ Stop Sound</button>
+
+        <input type="text" id="searchInput" placeholder="Search favorites..." />
+    </header>
+
+    <main class="soundboard" id="soundboard">
+        <!-- Favorite sounds will load here -->
+    </main>
+
+    <footer>
+        <p>Made by You ❤️ | Favorites saved in your browser</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        loadFavorites(); // Only load favorite sounds
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Soundboard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>🎵 My Custom Soundboard</h1>
+        <p>Click a button to play a sound or ⭐ to favorite</p>
+        <nav>
+            <a href="favorites.html">⭐ View Favorites</a>
+        </nav>
+        <button id="stop-sound-btn">⏹ Stop Sound</button>
+        <input type="search" id="searchInput" placeholder="Search sounds...">
+
+    </header>
+
+    <main class="soundboard" id="soundboard">
+        <!-- All sounds go here -->
+    </main>
+
+    <footer>
+        <p>Made by You ❤️ | Sounds from Myinstants</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        loadSounds(); // Load all sounds
+    </script>
+</body>
+
+</html>
